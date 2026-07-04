@@ -121,10 +121,3 @@ This release uses **ResNet34** and extracts Grad-CAM from **`layer4[2].conv2`**,
 
 The pipeline exports diagnostic plots at 300 dpi. For final journal production, regenerate or export selected figures at the journal-required resolution (for example, 1200 dpi for line art) without changing the underlying numerical results.
 
-## Citation
-
-Update `CITATION.cff` with the final GitHub URL, manuscript title, complete author list, DOI, and release DOI before publication.
-
-## License
-
-MIT License. Confirm that this license is compatible with your institution’s and coauthors’ requirements before public release.

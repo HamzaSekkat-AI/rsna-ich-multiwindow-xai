@@ -1,0 +1,7 @@
+## Code availability statement
+
+The source code used for DICOM preprocessing, multi-window input construction, patient- and study-level cross-validation, model training, threshold optimization, performance evaluation, and explainability analysis is publicly available at **[insert GitHub URL]**. A versioned archival release is available at **[insert DOI]**. The RSNA imaging data and source annotations are not redistributed through the repository and must be obtained independently from the authorized source under the applicable data-use terms.
+
+## Suggested response to the reviewer
+
+Thank you for this recommendation. To strengthen transparency and reproducibility, we have made the complete implementation publicly available in a version-controlled repository. The repository includes DICOM-to-Hounsfield-unit conversion, brain/subdural/bone-window construction, binary-label reshaping, patient- and study-level fold generation, ResNet34 training, validation-derived threshold optimization, performance evaluation, and the complete explainability workflow. It also contains installation instructions, dependency specifications, fixed random seeds, example commands, and a research-use disclaimer. The RSNA DICOM data and source annotations are not redistributed and must be obtained independently from the authorized source. The repository link and archived release DOI have been added to the Code availability statement.

@@ -1,0 +1,19 @@
+# Documentation-only configuration template.
+# The current CLI accepts the equivalent command-line arguments shown in README.md.
+dataset_root: /path/to/rsna-intracranial-hemorrhage-detection
+output_dir: outputs_rsna_xai
+seed: 42
+image_size: 256
+batch_size: 8
+eval_batch_size: 16
+num_workers: 4
+epochs: 30
+num_folds: 3
+lr: 0.0001
+weight_decay: 0.0001
+val_size: 0.15
+early_stopping_patience: 6
+max_xai_samples_per_class: 4
+deletion_insertion_steps: 20
+pretrained: true
+amp: true

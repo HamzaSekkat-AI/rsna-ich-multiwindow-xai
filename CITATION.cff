@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository and the associated manuscript."
+title: "RSNA ICH Multi-Window Explainable Deep Learning Pipeline"
+type: software
+authors:
+  - family-names: "Sekkat"
+    given-names: "Hamza"
+    affiliation: "Hassan First University of Settat"
+version: 1.0.0
+date-released: 2026-07-04
+license: MIT
+repository-code: "https://github.com/HamzaSekkat-AI/rsna-ich-multiwindow-xai"
+url: "https://github.com/HamzaSekkat-AI/rsna-ich-multiwindow-xai"
+abstract: >-
+  A DICOM-native, multi-window deep learning and explainability pipeline for
+  multi-label detection of intracranial hemorrhage subtypes on non-contrast
+  head CT. The repository includes DICOM-to-Hounsfield-unit conversion,
+  brain, subdural, and bone window construction, patient- and study-aware
+  cross-validation, ResNet34 training, validation-derived threshold
+  optimization, performance evaluation, and explainability analyses using
+  Grad-CAM, Integrated Gradients, occlusion sensitivity, window ablation,
+  and deletion-insertion faithfulness assessment.
+keywords:
+  - intracranial hemorrhage
+  - head CT
+  - deep learning
+  - explainable artificial intelligence
+  - DICOM
+  - ResNet34
+  - medical imaging

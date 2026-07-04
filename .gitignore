@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data and model artifacts (never commit RSNA data or identifiers)
+data/
+*.dcm
+*.dicom
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+stage_2_train.csv
+stage_2_sample_submission.csv
+
+# Generated outputs
+outputs*/
+checkpoints/
+predictions/
+wandb/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
